@@ -194,7 +194,66 @@ padding: 10px;
 	text-align: center;
 }
 
+/* ===================
 
+CONTACT
+
+==============*/
+
+.container h1::selection {
+    color: white;
+    background-color: rgb(104, 122, 122);
+}
+        
+.container p::selection {
+    color: white;
+    background-color: rgb(104, 122, 122);
+}
+        
+.contact-form {
+    background: whitesmoke;
+    box-shadow: 5px 10px gray;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 5px;
+    color: rbg(55, 92, 152);
+    float: left;
+    margin: 30px;
+}
+        
+.label_input_wrap {
+    display: block;
+}
+        
+.reset input,
+.submit input {
+    background: white;
+    color:rbg(55, 92, 152);
+    padding: 5px 20px;
+}
+        
+label {
+    font-weight: bold;
+}
+        
+.reset,
+.submit {
+    display: inline;
+}
+
+.input-section {
+    margin-bottom: 10px ;
+}
+        
+input {
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    font-family: sans-serif;
+    padding: 10px;
+}
 
 /* MEDIA QUERIES*/
 
