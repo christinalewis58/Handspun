@@ -14,6 +14,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+        <!--forms-->
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F27VWTS4ED"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-F27VWTS4ED');
+        </script>    
 
 
     </head>
@@ -44,7 +55,58 @@
 
         </header>
         <main>
-            <p>This page is under construction. Come back later!</p>
+            <div class="chat">
+                <h1>Let's chat!</h1>
+            </div>
+            
+            <div class="contact-form"> 
+
+                <form id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+                
+                    <div class="first-name">
+                        <label for="firstname" class="label_input_wrap">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                    </div>
+
+                    <div class="last-name input-section">
+                        <label for="lastname" class="label_input_wrap">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                    </div>
+
+                    <div class="email input-section">
+                        <label for="email" class="label_input_wrap">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="jsmith@example.com">
+                    </div>
+
+                    <div class="telephone input-section">
+                        <label for="telephone" class="label_input_wrap">Telephone:</label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555">
+                    </div>
+
+                    <div class="comments input-section">
+                        <label for="comments" class="label_input_wrap">Comments:</label>
+                        <textarea name="comments" id="comments"  cols="55" rows="5" placeholder="Your comment goes here."></textarea>
+                    </div>
+
+                    <div class="checkbox input-section">
+                        <h3>I'm interested in...</h3>
+                            <input type="checkbox" name="services" value="digitalmarketing" id="digitalmarketing" /><label for="digitalmarketing">Digital Marketing</label>
+                            <input type="checkbox" name="services" value="webdesign" id="webdesign" /><label for="webdesign">Web Design</label>
+                            <input type="checkbox" name="services" value="brandidentity" id="brandidentity" /> <label for="brandidentity">Brand Identity</label>
+                    </div>
+
+                    <div class="reset">
+                        <input type="reset" value="Refresh" />
+                    </div>
+
+                    <div class="submit">
+                        <input type="submit" value="Send me a message!" />
+                    </div>
+                
+                </form>
+                
+            </div>  
         </main>
 
         
