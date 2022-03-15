@@ -233,7 +233,11 @@ CONTACT
 }
         
 label {
-    font-weight: bold;
+	font-family: capitana, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1em;
+	padding: 10px;
 }
         
 .reset,
@@ -251,8 +255,11 @@ input {
 }
 
 textarea {
-    font-family: sans-serif;
-    padding: 10px;
+    font-family: capitana, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 1em;
+	padding: 10px;
 }
 
 /* MEDIA QUERIES*/
