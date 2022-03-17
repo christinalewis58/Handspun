@@ -134,7 +134,8 @@ h2 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: 1.5em;
-	padding: 10px;	
+	padding: 30px 10px 10px;	
+	text-align: center;
 }
 
 p {
@@ -155,11 +156,12 @@ padding: 10px;
 	font-family: capitana, sans-serif;
 	font-weight: 200;
 	font-style: normal;
-	font-size: .75em;
+	font-size: 1em;
 	padding: 10px;
 	background-color: goldenrod;
 	max-width: 35%;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .shop a {
@@ -200,6 +202,20 @@ CONTACT
 
 ==============*/
 
+.contactpage {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.contactpage img {
+	max-width: 100%;
+	margin: 0 auto;
+	height: auto;
+	padding: 20px;
+}
+
+
 .container h1::selection {
     color: white;
     background-color: rgb(104, 122, 122);
@@ -214,11 +230,10 @@ CONTACT
     background: whitesmoke;
     box-shadow: 5px 10px gray;
     padding: 20px;
-    max-width: 500px;
+    max-width: 100%;
     border-radius: 5px;
     color: rbg(55, 92, 152);
-    float: left;
-    margin: 30px;
+    margin: 0 auto
 }
         
 .label_input_wrap {
@@ -272,3 +287,17 @@ textarea {
   }
 
 
+@media screen and (min-width: 769px) {
+	.contactpage img {
+		max-width: 40%;
+		margin: 0 auto;
+		padding: 20px;
+		align-self: center;
+	}
+	.contact-form {
+		max-width: 50%;
+		margin-top: 20px;
+	}
+
+}
+	
