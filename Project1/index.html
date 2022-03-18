@@ -14,7 +14,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+       
+       <script>
+          function myFunction() {
+            document.getElementById("demo").innerHTML = "Thanks for subscribing! You'll receive an email shortly.";
+          }
+          </script>
 
     </head>
 
@@ -32,7 +37,7 @@
 
         </header>
         <main>
-
+ 
             <div class="header">
                 <h1>Handspun</h1>
                 <p>Natural, Artisan, Sustainable</p>
@@ -51,7 +56,7 @@
                 <div class="main">
 
                   <h2>Welcome to Handspun</h2>
-                  <div class="fakeimg"> <img src="images/plant-hanger.png" alt="macrame plant hanger" title="Macrame Plant Hanger" width="400"> </div>
+                  <div class="fakeimg"> <img data-lightbox="image-1" src="images/plant-hanger.png" alt="macrame plant hanger" title="Macrame Plant Hanger" width="400"> </div>
                
                   <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                   <br>
@@ -60,12 +65,18 @@
 
                   <h2>Natural, Artisan, Sustainable</h2>
                   <div class="fakeimg"> <img src="images/supplies.png" alt="macrame supplies" title="Macrame supplies and tools" width="400px"></div>
-                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                  <br>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis tempora omnis est odio. Nemo quos, voluptas odit consectetur quaerat rerum voluptatum nesciunt atque, tempora voluptatem perferendis rem porro iusto itaque.
                   <div class="shop"> <a href="ourstory.html">Read More</a> </div> 
+                  
+                  <div class="javascript">
+
+                  <p id="demo">Click Subscribe to join our mailing list.</p>
+                  <button type="button" onclick="myFunction()">Subscribe</button>
+                </div>
+                 
                 </div>
               </div>
-
+          
         </main>
 
          <!-- Footer -->
@@ -73,6 +84,7 @@
             <p>This page was created by Christina Lewis, 2022</p>
           </div>
 
+          
     </body>
 
 </html>
