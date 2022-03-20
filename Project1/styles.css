@@ -244,7 +244,6 @@ CONTACT
     padding: 20px;
     max-width: 100%;
     border-radius: 5px;
-    color: rbg(55, 92, 152);
     margin: 0 auto
 }
         
@@ -255,7 +254,6 @@ CONTACT
 .reset input,
 .submit input {
     background: white;
-    color:rbg(55, 92, 152);
     padding: 5px 20px;
 }
         
